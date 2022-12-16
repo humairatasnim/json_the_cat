@@ -22,7 +22,7 @@ describe('fetchBreedDescription', () => {
 
       const expectedErr = "Could not find requested breed: abc. Please try again with a different breed.";
 
-      // compare returned description
+      // compare returned error
       assert.equal(err, expectedErr.trim());
 
       done();
